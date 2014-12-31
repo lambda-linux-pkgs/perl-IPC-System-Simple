@@ -77,6 +77,11 @@ rm -rf %{buildroot}
 %{_mandir}/man3/IPC::System::Simple.3pm*
 
 %changelog
+* Wed Dec 31 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 1.25-1
+- Adapt for AL/LL
+- Add package support URL
+- Import source package EPEL7/perl-IPC-System-Simple-1.25-1.el7
+
 * Sun Oct 20 2013 Paul Howarth <paul@city-fan.org> - 1.25-1
 - Update to 1.25
   - No longer ship unrequired file Debian_CPANTS.txt (GH #7)
