@@ -1,6 +1,8 @@
+%define _buildid .2
+
 Name:		perl-IPC-System-Simple 
 Version:	1.25
-Release:	1%{?dist}
+Release:	1%{?_buildid}%{?dist}
 License:	GPL+ or Artistic 
 Group:		Development/Libraries
 Summary:	Run commands simply, with detailed diagnostics 
