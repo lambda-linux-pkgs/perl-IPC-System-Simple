@@ -32,6 +32,9 @@ BuildRequires:	perl(warnings)
 Requires:	perl(:MODULE_COMPAT_%(eval "`perl -V:version`"; echo $version))
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Calling Perl's in-built 'system()' function is easy; determining if it
 was successful is _hard_. Let's face it, '$?' isn't the nicest variable
 in the world to play with, and even if you _do_ check it, producing a
